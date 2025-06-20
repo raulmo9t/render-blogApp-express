@@ -1,4 +1,4 @@
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 import PostCategories from "../models/PostCategories.js";
 
 export const createPostCategory = async (req, res, next) => {
