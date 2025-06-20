@@ -1,6 +1,5 @@
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
-import { RiTokenSwapFill } from "react-icons/ri";
 
 export const authGuard = async (req, res, next) => {
   if (
