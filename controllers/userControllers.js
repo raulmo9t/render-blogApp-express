@@ -1,9 +1,9 @@
-import User from "../models/user.js";
+import User from "../models/User.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { uploadPicture } from "../middleware/uploadPictureMiddleware.js";
 import { fileRemover } from "../utils/fileRemover.js";
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 import Comment from "../models/Comment.js";
 
 export const registerUser = async (req, res, next) => {
